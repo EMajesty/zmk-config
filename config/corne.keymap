@@ -22,9 +22,9 @@
                 };
                 lower_layer {
                     bindings = <
-&trans  &kp ESC     &kp UP      &trans      &kp HOME    &kp PGUP            &kp F24         &kp TILD    &kp GRV     &kp LPRN    &kp RPRN        &trans
-&trans  &kp LEFT    &kp DOWN    &kp RIGHT   &kp END     &kp PGDN            &kp F23         &kp MINS    &kp EQL     &kp LBRC    &kp RBRC        &trans
-&trans  &kp MPRV    &kp MPLY    &kp MNXT    &trans      &kp INS             &kp F22         &kp UNDS    &kp PLUS    &kp LCBR    &kp RCBR        &trans
+&trans  &kp ESC     &kp UP      &trans      &kp HOME    &kp PG_UP           &kp F24         &kp TILDE   &kp GRAVE   &kp LPAR    &kp RPAR        &trans
+&trans  &kp LEFT    &kp DOWN    &kp RIGHT   &kp END     &kp PG_DN           &kp F23         &kp MINUS   &kp EQUAL   &kp LBKT    &kp RBKT        &trans
+&trans  &kp MPRV    &kp MPLY    &kp MNXT    &trans      &kp INS             &kp F22         &kp UNDER   &kp PLUS    &kp LBRC    &kp RBRC        &trans
                                 &trans      &trans      &trans              &mo adjust      &trans      &trans
                     >;
                 };
@@ -32,8 +32,8 @@
                 raise_layer {
                     bindings = <
 &trans  &kp N1      &kp N2      &kp N3      &kp N4      &kp N5              &kp N6          &kp N7      &kp N8      &kp N9      &kp N0          &trans
-&trans  &kp EXLM    &kp AT      &kp HASH    &kp DLR     &kp PERC            &kp CIRC        &kp AMPR    &kp ASTR    &kp BSLS    &kp QUOT        &trans
-&trans  &trans      &trans      &trans      &trans      &trans              &trans          &trans      &trans      &trans      &kp PIPE        &kp DQUO
+&trans  &kp EXCL    &kp AT      &kp HASH    &kp DLLR    &kp PRCNT           &kp CARET       &kp AMPS    &kp ASTRK   &kp BSLH    &kp SQT         &trans
+&trans  &trans      &trans      &trans      &trans      &trans              &trans          &trans      &trans      &kp PIPE    &kp DQT         &trans
                                 &trans      &trans      &mo adjust          &trans          &trans      &trans
                     >;
                 };
